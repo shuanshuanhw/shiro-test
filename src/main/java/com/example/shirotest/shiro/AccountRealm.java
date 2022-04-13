@@ -12,11 +12,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.HashSet;
 import java.util.Set;
 
+
 public class AccountRealm extends AuthorizingRealm {
 
 
 
-    @Autowired
+ //   @Autowired
   //  private AccountService accountService;
     //     用户的角色权限信息集合  授权
     @Override
